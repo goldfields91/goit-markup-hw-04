@@ -97,6 +97,8 @@ text-decoration: none;}
 
  .hero {background-color: var(--background-hero-footer-color);}
 
+
+
  
  .container-header  {
   display: flex;
@@ -258,6 +260,21 @@ text-align: center;}
   line-height: 1.1875;
 }
 .job-title {margin-top: 10px;}
+
+.clients {
+  padding-top: 94px;
+padding-bottom: 236px;}
+
+
+.permanent-clients {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1666;
+text-align: center;
+letter-spacing: 0.03em;
+margin-left: auto;
+margin-right: auto;
+}
 
  
 
