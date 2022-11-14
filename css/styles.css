@@ -333,11 +333,14 @@ fill: currentColor;
 }
 
 
-.section {
-  padding-top: 94px;
-padding-bottom: 236px;}
+.clients-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
 
- 
+ .clients-list {
+  margin-bottom: 85px;
+ }
 
 
  .clients-title{
@@ -501,9 +504,8 @@ color: var(--main-header-color);
   
 }
 
-.footer {
-  margin-left: 215px;
-}
+
+
  .footer-networks {
   margin-left: 70px;
  }
