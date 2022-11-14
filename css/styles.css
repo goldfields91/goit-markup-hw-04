@@ -337,6 +337,8 @@ fill: currentColor;
   padding-top: 94px;
 padding-bottom: 236px;}
 
+ 
+
 
  .clients-title{
 font-weight: 700;
@@ -366,6 +368,8 @@ margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 16px 32px;
+  width: 170px;
   height: 92px;
   color: var(--social-icons-color);
   border-radius: 4px;
@@ -475,27 +479,30 @@ color: var(--main-header-color);
 
 .tel:hover, .tel:focus {color: var(--accent-color);}
 
-.footer-networks {
 
+
+
+
+.join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #FFFFFF;
-  margin-left: 70px;
 
 }
 
-
+ .footer-networks {
+  margin-left: 70px;
+ }
 
 .footer-networks>ul {
   display:flex;
   padding: 0px;
   list-style: none;
   margin-top: 20px;
-
+  
 }
 
 .networks-links {
@@ -506,9 +513,17 @@ color: var(--main-header-color);
   min-height: 44px;
   color: var(--background-team-color);
   background-color: var(--background-hero-footer-color);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  
 
 }
+
+
+.networks {
+  gap: 10px;
+}
+
 
 .networks-links:hover,
 .networks-links:focus {
@@ -517,6 +532,7 @@ color: var(--main-header-color);
 
 .networks-icons {
   fill: currentColor;
+
 }
 
 
